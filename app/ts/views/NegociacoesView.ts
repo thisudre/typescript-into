@@ -1,5 +1,5 @@
-import { View } from './View';
-import { Negociacao } from '../models/Negociacao';
+import { View } from './index';
+import { Negociacao } from '../models/index';
 
 export class NegociacoesView extends View<Negociacao[]> {
 
